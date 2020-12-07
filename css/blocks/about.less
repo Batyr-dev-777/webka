@@ -1,0 +1,58 @@
+// main: ../style.less
+.about{
+    margin: 8.4rem 0;
+}
+.about__inner{
+    display: flex;
+    max-width: 1090px;
+}
+.about__photo{
+    width: 50%;
+    
+    @media @phone1{
+        display: none;
+    }
+}
+.about__photo-item{
+    
+    padding-left: 50px;
+    
+}
+.about__content{
+    width: 50%;
+    
+     @media @phone1{
+        width: 100%;
+    }
+    
+}
+.about__title{
+    font-size: 3rem;
+    color: @black;
+    font-weight: 700;
+    
+    
+      @media @phone1{
+        font-size: 1.9rem;
+    }
+    
+    
+}
+.about__bigtitle{
+    margin-bottom: 1.4rem;
+    font-size: 92px;
+    line-height: 1.1;
+    color: @gray-light;
+    
+      @media @phone1{
+        font-size: 62px;
+    }
+    
+}
+.about__text{
+    margin-bottom: 2.8rem;
+    font-size: 1rem;
+    line-height: 2;
+    color: @gray;
+    font-weight: 300;
+}
